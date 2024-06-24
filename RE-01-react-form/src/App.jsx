@@ -1,10 +1,12 @@
-import SimpleForm from "./components/SimpleForm"
+import ReactHookForm from './components/ReactHookForm'
+import SimpleForm from './components/SimpleForm'
+import './App.css'
 
-function App() {
-
+function App () {
   return (
     <>
       <SimpleForm />
+      <ReactHookForm />
     </>
   )
 }
