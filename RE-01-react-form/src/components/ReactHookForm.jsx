@@ -3,12 +3,6 @@ import logo from '../assets/react.svg'
 
 const ReactHookForm = () => {
   // API: https://dummyjson.com/docs/users
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm<Inputs>()
 
   return (
     <div className='login'>
